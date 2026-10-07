@@ -54,7 +54,7 @@ class PixelWeatherWidget : GlanceAppWidget() {
             Row(
                 modifier = GlanceModifier.fillMaxWidth(),
                 verticalAlignment = Alignment.Vertical.CenterVertically,
-                horizontalAlignment = Alignment.Horizontal.SpaceBetween
+                horizontalAlignment = Alignment.Horizontal.End
             ) {
                 Column {
                     Text(
