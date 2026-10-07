@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pixel Weather</string>
+    <string name="widget_description">Displays current conditions and AI weather brief.</string>
+</resources>
