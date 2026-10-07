@@ -39,7 +39,10 @@ android {
 
 dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
+
+    implementation(platform("androidx.compose:compose-bom:2024.12.01"))
+    implementation("androidx.compose.material3:material3")
+
     implementation("androidx.glance:glance-appwidget:1.1.1")
     implementation("androidx.glance:glance-material3:1.1.1")
-    implementation("androidx.compose.material3:material3:1.3.1")
 }
